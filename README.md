@@ -1,27 +1,13 @@
 # Microservices with Java, Spring, Docker, Kubernetes
+---
+### implemented Metrics & Health monitoring inside microservices network using Micrometer, Prometheus, Grafana using docker compose.
+---
+- Open the command line tool where the docker-compose.yml is present and run the docker compose command **"docker-compose up"** to start all the microservices containers with a single command. All the running containers can be validated by running a docker command **"docker ps"**.
+- Open the URL http://localhost:9090/targets/ inside a browser and validate all the details, graphs present inside prometheus like we discussed in the course.
+- Open the URL http://localhost:3000/login/ inside a browser and enter the login details(**admin/password**) of Grafana like we discussed in the course. Inside Grafana provide prometheus details, build custom dashboards, alerts like we discussed in the course.
+- Stop all the running containers by executing the docker compose command "docker-compose down" from the location where docker-compose.yml is present.
 
-# Important Links
-- Spring Cloud Project - https://spring.io/projects/spring-cloud
-- Spring Cloud Config - https://spring.io/projects/spring-cloud-config
-- Spring Cloud Gateway - https://spring.io/projects/spring-cloud-gateway
-- Spring Cloud Netflix - https://spring.io/projects/spring-cloud-netflix
-- Spring Cloud Sleuth - https://spring.io/projects/spring-cloud-sleuth
-- The 12-factor App - https://12factor.net/
-- Docker - https://www.docker.com/
-- DockerHub - https://hub.docker.com/u/eazybytes
-- Cloud Native Buildpacks - https://buildpacks.io/
-- Resilience4j - https://resilience4j.readme.io/docs/getting-started
-- Zipkin - https://zipkin.io/
-- RabbitMQ - https://www.rabbitmq.com/
-- Micrometer - https://micrometer.io/
-- Prometheus - https://prometheus.io/
-- Grafana - https://grafana.com/
-- Kubernetes - https://kubernetes.io/
-- GCP - https://console.cloud.google.com/
-- GConsole -  https://cloud.google.com/sdk
-- Helm -  https://helm.sh/
-- Keycloak  -  https://www.keycloak.org/
-- Istio -  https://istio.io/
+
 
 ## Maven Commands used in the course
 
@@ -100,3 +86,27 @@
 | "helm uninstall [NAME]" | Uninstall all of the resources associated with a given release |
 | "helm template [NAME] [CHART]" | Render chart templates locally along with the values |
 | "helm list" | Lists all of the helm releases inside a K8s cluster |
+
+
+# Important Links
+- Spring Cloud Project - https://spring.io/projects/spring-cloud
+- Spring Cloud Config - https://spring.io/projects/spring-cloud-config
+- Spring Cloud Gateway - https://spring.io/projects/spring-cloud-gateway
+- Spring Cloud Netflix - https://spring.io/projects/spring-cloud-netflix
+- Spring Cloud Sleuth - https://spring.io/projects/spring-cloud-sleuth
+- The 12-factor App - https://12factor.net/
+- Docker - https://www.docker.com/
+- DockerHub - https://hub.docker.com/u/eazybytes
+- Cloud Native Buildpacks - https://buildpacks.io/
+- Resilience4j - https://resilience4j.readme.io/docs/getting-started
+- Zipkin - https://zipkin.io/
+- RabbitMQ - https://www.rabbitmq.com/
+- Micrometer - https://micrometer.io/
+- Prometheus - https://prometheus.io/
+- Grafana - https://grafana.com/
+- Kubernetes - https://kubernetes.io/
+- GCP - https://console.cloud.google.com/
+- GConsole -  https://cloud.google.com/sdk
+- Helm -  https://helm.sh/
+- Keycloak  -  https://www.keycloak.org/
+- Istio -  https://istio.io/
