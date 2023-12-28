@@ -44,7 +44,7 @@
 | "docker compose up" | To create and start containers based on given docker compose file |
 | "docker compose stop" | To stop services |
 
-## Kubernetes Commands used in the course
+## Kubernetes Commands used
 
 |     Kubernetes Command       |     Description          |
 | ------------- | ------------- |
@@ -73,7 +73,7 @@
 | "kubectl autoscale deployment accounts-deployment --min=3 --max=10 --cpu-percent=70" | To create automatic scaling using HPA for a deployment inside your cluster |
 | "kubectl logs node-id" | To get a logs of a given node inside your cluster |
 
-## Helm Commands used in the course
+## Helm Commands used
 
 |     Helm Command       |     Description          |
 | ------------- | ------------- |
